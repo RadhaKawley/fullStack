@@ -30,3 +30,37 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+## installation done
+create repository :https://github.com/RadhaKawley/fullStack.git
+fullStack
+clone it
+# create branch folder FE Folder
+All the front end folder will be install here react and type script
+git checkout -b FEFolder
+install
+npm create vite@latest frontend -- --template react-ts
+PR for the FEFolder
+git checkout main
+git pull
+# create branch folder BE Folder
+All the back end folder will be install here express
+git checkout -b BEFolder
+mkdir backend
+cd backend
+npm init -y
+npm install express
+npm install --save-dev typescript tsx
+add index.ts
+npm i --save-dev @types/express
+git push on branch
+PR for the FEFolder
+git checkout main
+git pull
+cd backend
+npm i --save-dev nodemon
+
+backend for api 
+ npm install cors
+ npm install --save-dev @types/cors
+
