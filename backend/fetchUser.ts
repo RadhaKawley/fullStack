@@ -13,7 +13,7 @@ const fetchUser = async (id: string): Promise<User> => {
   return {
     id: idNumber,
     name: 'Radha',
-    bio: 'He\'s fabulous',
+    bio: 'She\'s fabulous',
     lastLogin: 'today'
   }
 }
